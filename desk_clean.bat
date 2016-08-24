@@ -1,0 +1,1 @@
+reg add ¡°HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindowsCurrentVersionExplorerShell Icons¡± /v 29 /d ¡°%systemroot%system32imageres.dll£¬197¡± /t reg_sz /f taskkill /f /im explorer.exe attrib -s -r -h ¡°%userprofile%Appdatalocaliconcache.db¡± del ¡°%userprofile%Appdatalocaliconcache.db¡± /f /q start explorer pause
